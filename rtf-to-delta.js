@@ -1,8 +1,8 @@
 'use strict';
 
 const Delta = require('quill-delta');
-const RTFSpan = require('@kenyog/rtf-parser/rtf-span');
-const RTFParagraph = require('@kenyog/rtf-parser/rtf-paragraph');
+const RTFSpan = require('rtf-parser/rtf-span');
+const RTFParagraph = require('rtf-parser/rtf-paragraph');
 
 module.exports = {
   rtfToDelta: rtfToDelta,
