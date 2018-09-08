@@ -1,5 +1,5 @@
 'use strict';
-const rtfStringParse = require('@kenyog/rtf-parser').string;
+const rtfStringParse = require('rtf-parser').string;
 const { rtfToDelta } = require('./rtf-to-delta.js');
 
 function rtfParser(rtf) {
@@ -54,4 +54,3 @@ RtfToDeltaConverter.testData = '{\\rtf1\\ansi\\b Hello world!\\b0}';
 
 
 module.exports = RtfToDeltaConverter;
-

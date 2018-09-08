@@ -1,5 +1,5 @@
 {
-  "name": "@kenyog/rtf-to-quill-delta",
+  "name": "rtf-to-quill-delta",
   "version": "0.0.2",
   "description": "converter from rtf file to quill delta format.",
   "main": "index.js",
@@ -15,8 +15,8 @@
   "author": "kenyog",
   "license": "MIT",
   "dependencies": {
-    "@kenyog/rtf-parser": "^1.2.1",
-    "quill-delta": "^3.6.2"
+    "quill-delta": "^3.6.2",
+    "rtf-parser": "https://github.com/iarna/rtf-parser"
   },
   "devDependencies": {
     "ava": "^0.25.0"
